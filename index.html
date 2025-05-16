@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh</title>
+    <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="stylesheet">
+<!-- Include this in your <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+<!-- AOS Library JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</head> 
+
+<body>
+
+    <!-------------------------- Header Area -------------------------->
+  <header class="custom-header">
+  <div class="container">
+  
+
+    <div class="nav-wrapper">
+     <a href="#home" class="logo">
+  <i class="fas fa-laptop-code"></i>&nbsp;Rakesh
+</a>
+
+<a href="#home" class="back-to-top" aria-label="Back to Top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+         <div class="theme-toggle">
+    <i class="fas fa-moon"></i>
+  </div>
+
+<script>
+  $(".theme-toggle").click(function () {
+    $("body").toggleClass("light-mode");
+    const icon = $(this).find("i");
+
+    if ($("body").hasClass("light-mode")) {
+      icon.removeClass("fa-moon").addClass("fa-sun");
+    } else {
+      icon.removeClass("fa-sun").addClass("fa-moon");
+    }
+  });
+</script>
+</div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+
+    <!-------------------------- Home Page -------------------------->
+  <section class="FirstElement" id="home">
+  <div class="profile-photo">
+    <img src="files/Rakesh.jpg" alt="Merala Rakesh">
+  </div>
+  <div class="profile-text">
+    <h1>Merala Rakesh</h1>
+    <p class="tagline"><span class="typewrite" data-text="Fresh Graduate | Full‑Stack Developer | Java • SQL • Web "></span></p>
+    <p class="intro">
+      Welcome to my portfolio website! I'm a passionate and aspiring software engineer with a strong desire to create innovative solutions and push the boundaries of technology. With a deep love for coding and problem‑solving, I am constantly seeking opportunities to learn and grow in this ever‑evolving field.
+    </p>
+    <div class="btn-group">
+      <a href="files/M_RAKESH.pdf" class="btn download-btn">Download CV</a>
+      <a href="mailto:rakeshmerala44586@gmail.com" class="btn contact-btn">Contact Me</a>
+    </div>
+    <div class="social">
+      <a href="mailto:rakeshmerala44586@gmail.com"><i class="fa fa-envelope"></i></a>
+      <a href="https://github.com/Rakeshmerala16" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/mrakesh44586" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/mr_attitude1_6" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</section>
+
+<script>
+  window.onload = function() {
+    const typewrite = document.querySelector(".typewrite");
+    const text = typewrite.getAttribute("data-text");
+    let i = 0;
+
+    function typing() {
+      if (i < text.length) {
+        typewrite.textContent += text.charAt(i);
+        i++;
+        setTimeout(typing, 60);
+      }
+    }
+
+    typing();
+  }
+</script>
+
+
+        <!-------------------------- About Section -------------------------->
+   <section class="about-area" id="about">
+  <div class="container">
+    <div class="about">
+      <div class="about-content">
+        <h4>About Me</h4>
+        <ul>
+          <li>
+            I recently completed my Bachelor’s Degree in Computer Science and Engineering from IIIT RGUKT RK Valley, Kadapa, in May 2025. Throughout my academic journey, I developed a strong foundation in software development, focusing on Java, SQL, Git, GitHub, PHP, and web technologies.
+          </li>
+          <li>
+            My project work and practical exposure have helped me build confidence in solving real-world problems and delivering efficient, scalable solutions. I’m passionate about building meaningful applications and have a proactive approach to learning and improving.
+          </li>
+          <li>
+            I am always eager to explore emerging technologies and take on new challenges. Feel free to browse through my portfolio, and don’t hesitate to get in touch for collaboration or professional opportunities.
+          </li>
+        </ul>
+      </div>
+
+      <div class="about-skills">
+        <h4>Quick Info</h4>
+        <ul>
+          <li><strong>Name:</strong> Merala Rakesh</li>
+          <li><strong>Age:</strong> 20</li>
+          <li><strong>From:</strong> Chittoor, AP, India</li>
+          <li><strong>Email:</strong> <a href="mailto:rakeshmerala44586@gmail.com">rakeshmerala44586@gmail.com</a></li>
+          <li><strong>Availability:</strong> Full-time</li>
+          <li><strong>Experience:</strong> Fresher</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+        <!-------------- Education -------------->
+   <section class="education-content" id="education">
+  <div class="container">
+    <div class="education">
+      <h3 class="section-title">Education</h3>
+      <div class="timeline-box">
+        <div class="timeline">
+          
+          <!-- B.Tech -->
+          <div class="timeline-item">
+            <div class="circle-dot"></div>
+            <div class="timeline-content">
+              <h3>B.Tech in Computer Science and Engineering – CGPA: 8.6</h3>
+              <h4>Rajiv Gandhi University of Knowledge Technologies, IIIT RK Valley, Kadapa</h4>
+              <span><i class="fa fa-calendar"></i> 2021 – 2025</span>
+            </div>
+          </div>
+
+          <!-- PUC -->
+          <div class="timeline-item">
+            <div class="circle-dot"></div>
+            <div class="timeline-content">
+              <h3>Pre-University Course (MPC) – CGPA: 8.94</h3>
+              <h4>Rajiv Gandhi University of Knowledge Technologies, IIIT RK Valley, Kadapa</h4>
+              <span><i class="fa fa-calendar"></i> 2019 – 2021</span>
+            </div>
+          </div>
+
+          <!-- 10th Grade -->
+          <div class="timeline-item">
+            <div class="circle-dot"></div>
+            <div class="timeline-content">
+              <h3>10th Grade – CGPA: 10.0</h3>
+              <h4>ZP High School, Katherapalle</h4>
+              <span><i class="fa fa-calendar"></i> 2019</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-------------------------- Skills -------------------------->
+
+
+<section class="skills-section" id="skills">
+  <div class="container">
+    <h3 class="section-title">My Skills</h3>
+
+    <div class="skills-group">
+      <h4>Languages</h4>
+      <div class="skill">
+        <span>Java</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>PHP</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>HTML & CSS</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <h4>Frameworks</h4>
+      <div class="skill">
+        <span>Bootstrap</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+      </div>
+      <!-- Add other frameworks here if any -->
+    </div>
+
+    <div class="skills-group">
+      <h4>Tools</h4>
+      <div class="skill">
+        <span>Git & GitHub</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span> Vs Code</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+      </div>
+      <!-- Add other tools here if any -->
+    </div>
+
+    <div class="skills-group">
+      <h4>Databases</h4>
+      <div class="skill">
+        <span>SQL</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+      </div>
+      <!-- Add other databases here if any -->
+    </div>
+  </div>
+</section>
+
+
+
+        <!-------------------------- Projects -------------------------->
+  
+      <section class="project-content" id="projects">
+  <div class="container">
+    <div class="project-title">
+      <h4>My Projects</h4>
+      <p>Discover my projects, where creativity meets innovation</p>
+    </div>
+    <div class="projects">
+
+      <!-- Food Waste Management App -->
+      <div class="project">
+        <a href="https://github.com/Rakeshmerala16/Food-Waste-Management-.git" target="_blank" class="project-link">
+          <i class="fa fa-apple-alt"></i>
+          <h4>Food Waste Management App</h4>
+          <p>
+            The Food Wastage Reduction Application is designed to minimize food waste by allowing
+            individuals and restaurants to donate excess food to those in need. It features modules
+            for users to donate, admins to manage donations, and delivery personnel to facilitate
+            pick‑ups and drop‑offs—enhancing community support and helping those facing food insecurity.
+          </p>
+          <p class="tech-used"><strong>Technologies:</strong> Angular, JavaScript, HTML&CSS, PHP, SQL</p>
+        </a>
+      </div>
+
+      <!-- Medicine Shop Automation -->
+      <div class="project">
+        <a href="https://github.com/Rakeshmerala16/Medicine-Shop-AutomationMSA-.git" target="_blank" class="project-link">
+          <i class="fa fa-pills"></i>
+          <h4>Medicine Shop Automation</h4>
+          <p>
+            This web application streamlines pharmacy operations by automating inventory management,
+            sales, and billing using Java Servlets, JDBC, and SQL. It ensures efficient stock control,
+            accurate sales tracking, and enhanced customer service for shop owners and customers alike.
+          </p>
+          <p class="tech-used"><strong>Technologies:</strong> Java Servlets, JDBC, HTML&CSS, JavaScript, SQL</p>
+        </a>
+      </div>
+
+      <!-- Fake Job Prediction Application -->
+      <div class="project">
+        <a href="https://github.com/Rakeshmerala16/Fake-Job-Prediction-Application.git" target="_blank" class="project-link">
+          <i class="fa fa-briefcase"></i>
+          <h4>Fake Job Prediction Application</h4>
+          <p>
+            A machine learning model that predicts whether a job posting is fake or real. It leverages
+            text features (e.g., title, description) and numerical indicators (e.g., telecommuting flag,
+            company logo) in a hybrid ensemble of Logistic Regression, Random Forest, and Gradient Boosting
+            with a Stacking Classifier to boost accuracy.
+          </p>
+          <p class="tech-used"><strong>Technologies:</strong> Python, Machine Learning, Logistic Regression, Random Forest, Gradient Boosting</p>
+        </a>
+      </div>
+
+      <!-- Key Logger -->
+      <div class="project">
+        <a href="https://github.com/Rakeshmerala16/m_rakesh_APSSDC-CS.git" target="_blank" class="project-link">
+          <i class="fa fa-keyboard"></i>
+          <h4>Key Logger (Python)</h4>
+          <p>
+            A Python-based cybersecurity tool to monitor and record keystrokes. This project demonstrates
+            potential security vulnerabilities and educates users on the importance of securing their systems
+            against unauthorized logging.
+          </p>
+          <p class="tech-used"><strong>Technologies:</strong> Python</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+        <!-------------------------- Contact Me -------------------------->
+
+    <section class="contact-content" id="contact">
+  <div class="container">
+    <div class="contact-title">
+      <h4>Contact Me</h4>
+      <p>Get In Touch</p>
+    </div>
+    <div class="contact-form-wrapper">
+      <form name="submitToGoogleSheet" class="contact-form">
+        <input type="text" name="NAME" placeholder="Your Name" required />
+        <input type="email" name="EMAIL" placeholder="Your Email" required />
+        <input type="text" name="SUBJECT" placeholder="Subject" />
+        <textarea name="MESSAGE" placeholder="Your Message" rows="6"></textarea>
+        <input type="submit" value="Send Message" class="submit-btn" />
+        <span id="msg"></span>
+      </form>
+    </div>
+  </div>
+</section>
+
+    <!-------------------------- Footer section -------------------------->
+  <footer class="footer">
+  <div class="footer-container">
+    <p class="footer-message">Thanks for visiting and happy coding!</p>
+    <div class="footer-links" aria-label="Social and contact links">
+      <a href="mailto:rakeshmerala44586@gmail.com" aria-label="Email">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a href="https://github.com/Rakeshmerala16" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.hackerrank.com/profile/rakeshmerala4451" target="_blank" aria-label="HackerRank">
+        <i class="fab fa-hackerrank"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/mrakesh44586" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/mr_attitude1_6" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="tel:+917993467701" aria-label="Phone">
+        <i class="fa fa-phone"></i>
+      </a>
+    </div>
+    <p class="footer-copy">&copy; 2025 Merala Rakesh. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
