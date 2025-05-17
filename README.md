@@ -30,13 +30,14 @@ Welcome to **Portfolio Rakesh** — a personal portfolio website that showcases 
 
 Here are some screenshots of the portfolio website to give you a glimpse of its look and feel:
 
-![Homepage](homepage.png)  
-*Homepage with navigation and hero section*
+![Homepage](home.png)  
+*The homepage features a clean navigation bar, a welcoming hero section with an introduction, and quick links to important sections.*
+
+![Skills Section](skills.png)  
+*Skills section displaying my key technical skills with visually appealing icons and progress bars.*
 
 ![Projects Section](projects.png)  
-*Interactive project showcase*
-
-![Contact Section](contact.png)  
+*Projects section highlighting interactive project cards with brief descriptions, technologies used, and links to live demos or source code.*
 
 
 ---
