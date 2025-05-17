@@ -26,9 +26,18 @@ Welcome to **Portfolio Rakesh** — a personal portfolio website that showcases 
 ---
 
 ## 📸 Preview
+## 📸 Screenshots
 
-![Portfolio Preview](preview.png)  
-> *(You can upload a screenshot as `preview.png` in your repo to show a preview here.)*
+Here are some screenshots of the portfolio website to give you a glimpse of its look and feel:
+
+![Homepage](homepage.png)  
+*Homepage with navigation and hero section*
+
+![Projects Section](projects.png)  
+*Interactive project showcase*
+
+![Contact Section](contact.png)  
+
 
 ---
 
